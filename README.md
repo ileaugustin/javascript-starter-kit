@@ -1,3 +1,5 @@
+# javascript-starter-kit
+
 npm start , will start the server
 npm run share, will generate a public url where others can view my local work
 for other commands check package.json
