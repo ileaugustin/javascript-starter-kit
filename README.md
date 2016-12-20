@@ -17,7 +17,15 @@ we use  express to create the server
 				trackjs for error logging, it has a free trial for 30 days
 										i didn't install it. It's in the production build module,
 										chapter: demo:Error logging
-
+				heroku for production deployment for the api (or backend)
+							we created a new project called js-dev-env-demo-api
+								where we use heroku
+				surge for production deployment for the ui
+					we added a script to package.json called deploy, so npm run deploy
+					will do the trick, it should be called after npm run build
+					the deployment part is all in the last module
+					
+					
 webpack creates a file which we called bundle.js, and import it in index.html
 				the file does not exist physically, but it is in memory 
 				
@@ -43,3 +51,7 @@ you will receive an email after each build, with the result of the build
 
 the production configuration is in webpack.config.prod.js, and the files are in
 the dist folder
+
+
+list of react starter-kits:
+-- http://andrewhfarmer.com/starter-project/
